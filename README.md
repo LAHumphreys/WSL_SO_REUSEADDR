@@ -48,8 +48,8 @@ The regression test itself works by attempting to spin up two servers on the sam
 
         // Request server's main loop is blocking, start up on a slave thread...
         serverThread.PostTask([&] () -> void {
-    	server.AddHandler(EchoSvr::REQUEST_TYPE, EchoSvr::New());
-    	server.HandleRequests(serverPort);
+    	    server.AddHandler(EchoSvr::REQUEST_TYPE, EchoSvr::New());
+    	    server.HandleRequests(serverPort);
         });
         serverThread.Start();
 
