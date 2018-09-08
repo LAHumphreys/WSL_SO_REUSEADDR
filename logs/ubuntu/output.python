@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "server.py", line 8, in <module>
+    s.bind(serverAddr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use

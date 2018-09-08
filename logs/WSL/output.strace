@@ -1,0 +1,926 @@
+execve("/usr/bin/python2.7", ["python2.7", "server.py"], 0x7fffcde732d8 /* 18 vars */) = 0
+brk(NULL)                               = 0x7fffcef36000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=61688, ...}) = 0
+mmap(NULL, 61688, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f39e6b02000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e6b00000
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e6400000
+mprotect(0x7f39e65e7000, 2097152, PROT_NONE) = 0
+mmap(0x7f39e67e7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f39e67e7000
+mmap(0x7f39e67ed000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f39e67ed000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e61e0000
+mprotect(0x7f39e61fa000, 2093056, PROT_NONE) = 0
+mmap(0x7f39e63f9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f39e63f9000
+mmap(0x7f39e63fb000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f39e63fb000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e5fd0000
+mprotect(0x7f39e5fd3000, 2093056, PROT_NONE) = 0
+mmap(0x7f39e61d2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f39e61d2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10592, ...}) = 0
+mmap(NULL, 2105616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e5dc0000
+mprotect(0x7f39e5dc2000, 2093056, PROT_NONE) = 0
+mmap(0x7f39e5fc1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f39e5fc1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\37\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=116960, ...}) = 0
+mmap(NULL, 2212016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e5ba0000
+mprotect(0x7f39e5bbc000, 2093056, PROT_NONE) = 0
+mmap(0x7f39e5dbb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f39e5dbb000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e5800000
+mprotect(0x7f39e599d000, 2093056, PROT_NONE) = 0
+mmap(0x7f39e5b9c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7f39e5b9c000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e6af0000
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e6ae0000
+arch_prctl(ARCH_SET_FS, 0x7f39e6ae0740) = 0
+mprotect(0x7f39e67e7000, 16384, PROT_READ) = 0
+mprotect(0x7f39e5b9c000, 4096, PROT_READ) = 0
+mprotect(0x7f39e5dbb000, 4096, PROT_READ) = 0
+mprotect(0x7f39e5fc1000, 4096, PROT_READ) = 0
+mprotect(0x7f39e61d2000, 4096, PROT_READ) = 0
+mprotect(0x7f39e63f9000, 4096, PROT_READ) = 0
+mprotect(0x7f39e70ff000, 8192, PROT_READ) = 0
+mprotect(0x7f39e6a27000, 4096, PROT_READ) = 0
+munmap(0x7f39e6b02000, 61688)           = 0
+set_tid_address(0x7f39e6ae0a10)         = 6816
+set_robust_list(0x7f39e6ae0a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f39e61e5cb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f39e61f2890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f39e61e5d50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f39e61f2890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=8192*1024}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+brk(NULL)                               = 0x7fffcef36000
+brk(0x7fffcef57000)                     = 0x7fffcef57000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e6aa0000
+brk(0x7fffcef7f000)                     = 0x7fffcef7f000
+fstat(0, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 2), ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 2), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0660, st_rdev=makedev(4, 2), ...}) = 0
+fstat(2, {st_mode=S_IFREG|0666, st_size=6148, ...}) = 0
+stat("/usr/local/sbin/python2.7", 0x7fffd73e1830) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/python2.7", 0x7fffd73e1830) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/python2.7", 0x7fffd73e1830) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/python2.7", {st_mode=S_IFREG|0755, st_size=3633560, ...}) = 0
+readlink("/usr/bin/python2.7", 0x7fffd73e1830, 4096) = -1 EINVAL (Invalid argument)
+stat("/usr/bin/Modules/Setup", 0x7fffd73e0760) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/os.py", 0x7fffd73e0750) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/os.pyc", 0x7fffd73e0750) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/os.py", {st_mode=S_IFREG|0644, st_size=25910, ...}) = 0
+stat("/usr/bin/pybuilddir.txt", 0x7fffd73e0760) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/lib-dynload", 0x7fffd73e0760) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e6a60000
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f39e643ef20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f39e643ef20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+getpid()                                = 6816
+rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f39e643ef20}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f476160ef20}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f39e643ef20}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x409686}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x7f39e6d69dd0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f39e643ef20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f22a5bfef20}, 8) = 0
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/site", 0x7fffd73e15d0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/site.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/site.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sitemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/site.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=19947, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/site.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=19535, ...}) = 0
+read(4, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sp\1\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=19535, ...}) = 0
+read(4, "\0(\0\0\0\0s\32\0\0\0/usr/lib/python2.7/si"..., 12288) = 12288
+read(4, "scii', but if you're willing to "..., 4096) = 3151
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/os", 0x7fffd73e1130) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/os.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/os.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/osmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/os.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=25910, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/os.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=25583, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\16\0\0\0@\0\0\0s\372\6\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=25583, ...}) = 0
+read(5, "  N(\t\0\0\0R\t\0\0\0t\5\0\0\0splitt\6\0\0\0exis"..., 20480) = 20480
+read(5, "R\31\0\0\0(X\0\0\0t\7\0\0\0__doc__RO\0\0\0R\"\0\0\0"..., 4096) = 1007
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+brk(0x7fffcefa1000)                     = 0x7fffcefa1000
+sysinfo({uptime=9842, loads=[33984, 37856, 38400], totalram=7468634112, freeram=1009963008, sharedram=0, bufferram=0, totalswap=22548578304, freeswap=22168391680, procs=138, totalhigh=142548992, freehigh=278528, mem_unit=1}) = 0
+stat("/usr/lib/python2.7/posixpath", 0x7fffd73e0c90) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/posixpath.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/posixpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/posixpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/posixpath.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=13935, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/posixpath.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=11385, ...}) = 0
+read(6, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0&\0\0\0@\0\0\0s\373\1\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=11385, ...}) = 0
+read(6, "\0\0\0Test whether a path exists.  "..., 4096) = 4096
+read(6, "\0\0_varprogt\4\0\0\0NoneRD\0\0\0t\6\0\0\0sea"..., 4096) = 3193
+read(6, "", 4096)                       = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e69e0000
+close(6)                                = 0
+stat("/usr/lib/python2.7/stat", 0x7fffd73e07f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/stat.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/stat.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/statmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/stat.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1842, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/stat.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2731, ...}) = 0
+read(7, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\1\0\0\0@\0\0\0s{\1\0\0d\0"..., 4096) = 2731
+fstat(7, {st_mode=S_IFREG|0644, st_size=2731, ...}) = 0
+read(7, "", 4096)                       = 0
+mmap(NULL, 200704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e69a0000
+close(7)                                = 0
+close(6)                                = 0
+stat("/usr/lib/python2.7/genericpath", 0x7fffd73e07f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/genericpath.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/genericpath.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/genericpathmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/genericpath.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=3201, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/genericpath.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=3495, ...}) = 0
+read(7, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\10\0\0\0@\0\0\0s\305\0\0\0d\0"..., 4096) = 3495
+fstat(7, {st_mode=S_IFREG|0644, st_size=3495, ...}) = 0
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+close(6)                                = 0
+stat("/usr/lib/python2.7/warnings", 0x7fffd73e07f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/warnings.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/warnings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/warningsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/warnings.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=14823, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/warnings.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=13464, ...}) = 0
+read(7, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\10\0\0\0@\0\0\0sY\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=13464, ...}) = 0
+read(7, " warnings filters (at the front)"..., 8192) = 8192
+read(7, "\0\0\0R\n\0\0\0(\2\0\0\0R\200\0\0\0R\2\0\0\0(\0\0\0\0(\1\0\0"..., 4096) = 1176
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+stat("/usr/lib/python2.7/linecache", 0x7fffd73e0350) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/linecache.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/linecache.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/linecachemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/linecache.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4027, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/linecache.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=3260, ...}) = 0
+read(8, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sp\0\0\0d\0"..., 4096) = 3260
+fstat(8, {st_mode=S_IFREG|0644, st_size=3260, ...}) = 0
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+close(7)                                = 0
+stat("/usr/lib/python2.7/types", 0x7fffd73e0350) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/types.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/types.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/typesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/types.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2094, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/types.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=2711, ...}) = 0
+read(8, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0sH\2\0\0d\0"..., 4096) = 2711
+fstat(8, {st_mode=S_IFREG|0644, st_size=2711, ...}) = 0
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+close(7)                                = 0
+close(6)                                = 0
+close(5)                                = 0
+stat("/usr/lib/python2.7/UserDict", 0x7fffd73e0c90) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/UserDict.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/UserDict.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/UserDictmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/UserDict.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=7060, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/UserDict.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=9621, ...}) = 0
+read(6, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sb\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=9621, ...}) = 0
+read(6, "got %dR\1\0\0\0i\377\377\377\377s0\0\0\0Passing 'di"..., 4096) = 4096
+read(6, "\0\0\261\0\0\0s\f\0\0\0\0\1\3\1\34\1\r\1\r\1\7\1c\2\0\0\0\5\0\0\0"..., 4096) = 1429
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/usr/lib/python2.7/_abcoll", 0x7fffd73e07f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_abcoll.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_abcoll.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_abcollmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_abcoll.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=18619, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/_abcoll.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=25474, ...}) = 0
+read(7, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\20\0\0\0@\0\0\0s\224\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=25474, ...}) = 0
+read(7, "\1\0Z\7\0RS(\2\0\0\0c\2\0\0\0\2\0\0\0\1\0\0\0C\0\0\0s\4\0"..., 20480) = 20480
+read(7, "alue.\n           Raise ValueErro"..., 4096) = 898
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+stat("/usr/lib/python2.7/abc", 0x7fffd73e0350) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/abc.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/abc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/abcmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/abc.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=7145, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/abc.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=6121, ...}) = 0
+read(8, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s}\0\0\0d\0"..., 4096) = 4096
+fstat(8, {st_mode=S_IFREG|0644, st_size=6121, ...}) = 0
+read(8, "egisteri\0\0\0s\20\0\0\0\0\2\30\1\17\1\17\1\4\3\17\2\17\1\20\1"..., 4096) = 2025
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+stat("/usr/lib/python2.7/_weakrefset", 0x7fffd73dfeb0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_weakrefset.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_weakrefset.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_weakrefsetmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_weakrefset.py", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=5911, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/_weakrefset.pyc", O_RDONLY) = 9
+fstat(9, {st_mode=S_IFREG|0644, st_size=9582, ...}) = 0
+read(9, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0sI\0\0\0d\0"..., 4096) = 4096
+fstat(9, {st_mode=S_IFREG|0644, st_size=9582, ...}) = 0
+read(9, "efset.pyR\27\0\0\0q\0\0\0s\6\0\0\0\0\1\t\1\r\1c\2\0\0"..., 4096) = 4096
+read(9, "\26\0\210\0\0j\1\0\203\0\0\1n\0\0\210\0\0|\1\0k\10\0r2\0\210\0\0j\2"..., 4096) = 1390
+read(9, "", 4096)                       = 0
+close(9)                                = 0
+close(8)                                = 0
+close(7)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e6960000
+brk(0x7fffcefc2000)                     = 0x7fffcefc2000
+close(6)                                = 0
+close(5)                                = 0
+stat("/usr/lib/python2.7/copy_reg", 0x7fffd73e0c90) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/copy_reg.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/copy_reg.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/copy_regmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/copy_reg.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=6974, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/copy_reg.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=5145, ...}) = 0
+read(6, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s\326\0\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=5145, ...}) = 0
+read(6, "ith code %ss$\0\0\0code %s is alrea"..., 4096) = 1049
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/traceback", 0x7fffd73e1130) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/traceback.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/traceback.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/tracebackmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/traceback.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=11285, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/traceback.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=11639, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\16\0\0\0@\0\0\0sB\1\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=11639, ...}) = 0
+read(5, "!\0\0\0i\0\0\0\0i\1\0\0\0N(\20\0\0\0R\24\0\0\0R\"\0\0\0R\25"..., 4096) = 4096
+read(5, "\0\203\0\0\\\3\0}\2\0}\3\0}\4\0t\4\0|\2\0|\3\0|\4\0|\0\0|"..., 4096) = 3447
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+close(4)                                = 0
+geteuid()                               = 1000
+getuid()                                = 1000
+getegid()                               = 1000
+getgid()                                = 1000
+stat("/usr/lib/python2.7/sysconfig", 0x7fffd73e0cf0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sysconfig.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sysconfig.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sysconfigmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sysconfig.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=25495, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/sysconfig.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=18813, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\7\0\0\0@\0\0\0s\"\6\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=18813, ...}) = 0
+read(5, "\0local_varst\3\0\0\0var(\0\0\0\0(\0\0\0\0s\37\0"..., 12288) = 12288
+read(5, "\0amd64s\t\0\0\0win-amd64t\7\0\0\0itanium"..., 4096) = 2429
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/bin/python2.7", {st_mode=S_IFREG|0755, st_size=3633560, ...}) = 0
+stat("/usr/bin/Modules/Setup.dist", 0x7fffd73e17a0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/Modules/Setup.local", 0x7fffd73e17a0) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+stat("/usr/lib/python2.7/re", 0x7fffd73e0a00) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/re.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/re.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/remodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/re.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=13423, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/re.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=13371, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\27\0\0\0@\0\0\0sQ\2\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=13371, ...}) = 0
+read(5, "ports the following functions:\n "..., 8192) = 8192
+read(5, "\0|\10\0\203\1\0\1n\0\0|\7\0}\5\0q-\0W|\2\0|\1\0|\5\0\37f"..., 4096) = 1083
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/usr/lib/python2.7/sre_compile", 0x7fffd73e0560) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_compile.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_compile.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_compilemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_compile.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=19823, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_compile.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=12530, ...}) = 0
+read(6, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\16\0\0\0@\0\0\0s\317\1\0\0d\0"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=12530, ...}) = 0
+read(6, "_compilet\7\0\0\0SUCCESSt\7\0\0\0_simple"..., 8192) = 8192
+read(6, "\0intRc\0\0\0Re\0\0\0R'\0\0\0R\225\0\0\0t\7\0\0\0uni"..., 4096) = 242
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/usr/lib/python2.7/sre_parse", 0x7fffd73e00c0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_parse.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_parse.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_parsemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_parse.py", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=30700, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_parse.pyc", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=21084, ...}) = 0
+read(7, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\4\0\0\0@\0\0\0s\323\2\0\0d\0"..., 4096) = 4096
+fstat(7, {st_mode=S_IFREG|0644, st_size=21084, ...}) = 0
+read(7, "\0/usr/lib/python2.7/sre_parse.py"..., 16384) = 16384
+read(7, "NNING_STRINGt\v\0\0\0AT_BOUNDARYt\17\0\0"..., 4096) = 604
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+stat("/usr/lib/python2.7/sre_constants", 0x7fffd73dfc20) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_constants.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_constants.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_constantsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_constants.py", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=7197, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/sre_constants.pyc", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=6185, ...}) = 0
+read(8, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0 \0\0\0@\0\0\0s*\5\0\0d\0"..., 4096) = 4096
+fstat(8, {st_mode=S_IFREG|0644, st_size=6185, ...}) = 0
+read(8, "FIX %d\ns\34\0\0\0#define SRE_INFO_LIT"..., 4096) = 2089
+read(8, "", 4096)                       = 0
+close(8)                                = 0
+close(7)                                = 0
+close(6)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/_sysconfigdata", 0x7fffd73e08f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdatamodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=126, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=279, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s6\0\0\0d\0"..., 4096) = 279
+fstat(5, {st_mode=S_IFREG|0644, st_size=279, ...}) = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/usr/lib/python2.7/_sysconfigdata_nd", 0x7fffd73e0450) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata_nd.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata_nd.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata_ndmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata_nd.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sysconfigdata_nd.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd", 0x7fffd73e0450) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_ndmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.py", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=18218, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.pyc", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=20905, ...}) = 0
+read(6, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\r\17\0\0i%"..., 4096) = 4096
+fstat(6, {st_mode=S_IFREG|0644, st_size=20905, ...}) = 0
+brk(0x7fffcefe6000)                     = 0x7fffcefe6000
+read(6, "ADSs\10\0\0\0/usr/bint\6\0\0\0BINDIRs\22\0\0\0"..., 16384) = 16384
+read(6, "\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7"..., 4096) = 425
+read(6, "", 4096)                       = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e6920000
+close(6)                                = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/home/lhumphreys/.local/lib/python2.7/site-packages", 0x7fffd73e1f70) = -1 ENOENT (No such file or directory)
+stat("/home/lhumphreys/.local/local/lib/python2.7/dist-packages", 0x7fffd73e1f70) = -1 ENOENT (No such file or directory)
+stat("/home/lhumphreys/.local/lib/python2.7/dist-packages", 0x7fffd73e1f70) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+getdents(4, /* 2 entries */, 32768)     = 48
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(4, /* 8 entries */, 32768)     = 256
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/sitecustomize", 0x7fffd73e0f10) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sitecustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sitecustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sitecustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/sitecustomize.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=155, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/sitecustomize.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=232, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\5\0\0\0@\0\0\0s2\0\0\0y\20"..., 4096) = 232
+fstat(5, {st_mode=S_IFREG|0644, st_size=232, ...}) = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/usr/lib/python2.7/apport_python_hook", 0x7fffd73e0a70) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook", 0x7fffd73e0a70) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-tk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-tk/apport_python_hook", 0x7fffd73e0a70) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-old", 0x7fffd73df7f0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-old", 0x7fffd73e07e0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-dynload/apport_python_hook", 0x7fffd73e0a70) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages/apport_python_hook", 0x7fffd73e0a70) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/apport_python_hook", 0x7fffd73e0a70) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/apport_python_hook.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/apport_python_hook.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/apport_python_hookmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/apport_python_hook.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/apport_python_hook.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+stat("/usr/lib/python2.7/usercustomize", 0x7fffd73e0f10) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize", 0x7fffd73e0f10) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk/usercustomize", 0x7fffd73e0f10) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload/usercustomize", 0x7fffd73e0f10) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages/usercustomize", 0x7fffd73e0f10) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/lib/python2.7/dist-packages/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/usercustomize", 0x7fffd73e0f10) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/usercustomize.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/usercustomize.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/usercustomizemodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/usercustomize.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/dist-packages/usercustomize.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1683056, ...}) = 0
+mmap(NULL, 1683056, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f39e5665000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2995
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=199772, ...}) = 0
+mmap(NULL, 199772, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f39e6a2f000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26376, ...}) = 0
+mmap(NULL, 26376, PROT_READ, MAP_SHARED, 3, 0) = 0x7f39e6b0b000
+close(3)                                = 0
+futex(0x7f39e67eca08, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5698, ...}) = 0
+stat("/usr/lib/python2.7/encodings/__init__", 0x7fffd73e16c0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__init__.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__init__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__init__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__init__.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5698, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__init__.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=4370, ...}) = 0
+read(4, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\216\0\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=4370, ...}) = 0
+read(4, "\1$\1$\0016\0016\1\3\1\3\1\26\1\"\0015\1\22\3\n\4\3\1\20\1\r\1\4\2\r"..., 4096) = 274
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/encodings/codecs", 0x7fffd73e1220) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/codecs.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/codecs.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/codecs.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/codecs", 0x7fffd73e1220) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/codecs.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/codecs.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/codecsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/codecs.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=36143, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/codecs.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=36636, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0+\0\0\0@\0\0\0sp\3\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=36636, ...}) = 0
+read(5, "ndling.\n\n            The method "..., 28672) = 28672
+read(5, "d\n        or the codecs doesn't "..., 4096) = 3868
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/encodings/encodings", 0x7fffd73e1220) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/encodings.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/encodings.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/encodingsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/encodings.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/encodings.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings/aliases", 0x7fffd73e11c0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/aliases.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/aliases.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/aliasesmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/aliases.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=14848, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/aliases.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=8768, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0su\10\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=8768, ...}) = 0
+read(5, "ibm860t\6\0\0\0ibm860t\5\0\0\0cp861t\3\0\0\0"..., 4096) = 4096
+read(5, "\7\3\7\1\7\1\7\1\7\1\7\1\7\1\7\1\7\3\7\1\7\1\7\3\7\1\7\3\7\1\7\3"..., 4096) = 576
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+close(4)                                = 0
+stat("/usr/lib/python2.7/encodings/__builtin__", 0x7fffd73e1220) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__builtin__.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__builtin__.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__builtin__module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__builtin__.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/__builtin__.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+stat("/usr/lib/python2.7/encodings/utf_8", 0x7fffd73e1460) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/utf_8.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/utf_8.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/utf_8module.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/utf_8.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/encodings/utf_8.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=1950, ...}) = 0
+read(4, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\230\0\0\0d\0"..., 4096) = 1950
+fstat(4, {st_mode=S_IFREG|0644, st_size=1950, ...}) = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+close(3)                                = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, 0x7fffd73e2730)        = -1 ENOTTY (Inappropriate ioctl for device)
+readlink("server.py", 0x7fffd73df930, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/lhumphreys/dev/sockerreuse", 4096) = 33
+lstat("/home/lhumphreys/dev/sockerreuse/server.py", {st_mode=S_IFREG|0777, st_size=431, ...}) = 0
+stat("server.py", {st_mode=S_IFREG|0777, st_size=431, ...}) = 0
+openat(AT_FDCWD, "server.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0777, st_size=431, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=431, ...}) = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "#!/usr/bin/python2\nimport socket"..., 409) = 409
+read(3, "   break\nconn.close()\n", 4096) = 22
+close(3)                                = 0
+stat("server.py", {st_mode=S_IFREG|0777, st_size=431, ...}) = 0
+openat(AT_FDCWD, "server.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0777, st_size=431, ...}) = 0
+ioctl(3, TCGETS, 0x7fffd73e28a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0777, st_size=431, ...}) = 0
+read(3, "#!/usr/bin/python2\nimport socket"..., 4096) = 431
+lseek(3, 0, SEEK_SET)                   = 0
+brk(0x7fffcf007000)                     = 0x7fffcf007000
+read(3, "#!/usr/bin/python2\nimport socket"..., 4096) = 431
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+stat("/home/lhumphreys/dev/sockerreuse", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/lhumphreys/dev/sockerreuse", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/lhumphreys/dev/sockerreuse/socket", 0x7fffd73e1480) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/socket.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/socket.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/socketmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/socket.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/socket.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/socket", 0x7fffd73e1480) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/socket.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/socket.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/socketmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/socket.py", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=20615, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/socket.pyc", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=16092, ...}) = 0
+read(4, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\16\0\0\0@\0\0\0s\354\3\0\0d\0"..., 4096) = 4096
+fstat(4, {st_mode=S_IFREG|0644, st_size=16092, ...}) = 0
+read(4, "'\0\0s\23\0\0\0Connection refused.iM'\0\0"..., 8192) = 8192
+read(4, "n\0\0\202\0\0n\1\0X|\5\0s\352\1Pn\0\0|\5\0j\23\0d\3\0\203\1\0"..., 4096) = 3804
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/home/lhumphreys/dev/sockerreuse/functools", 0x7fffd73e0fe0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/functools.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/functools.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/functoolsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/functools.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/functools.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/functools", 0x7fffd73e0fe0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/functools.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/functools.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/functoolsmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/functools.py", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=4806, ...}) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/functools.pyc", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=6569, ...}) = 0
+read(5, "\3\363\r\nf\311\323Zc\0\0\0\0\0\0\0\0\3\0\0\0@\0\0\0s\\\0\0\0d\0"..., 4096) = 4096
+fstat(5, {st_mode=S_IFREG|0644, st_size=6569, ...}) = 0
+brk(0x7fffcf028000)                     = 0x7fffcf028000
+read(5, "ools.pyR\23\0\0\0F\0\0\0s\0\0\0\0c\2\0\0\0\2\0\0\0\2\0"..., 4096) = 2473
+read(5, "", 4096)                       = 0
+brk(0x7fffcf026000)                     = 0x7fffcf026000
+close(5)                                = 0
+brk(0x7fffcf025000)                     = 0x7fffcf025000
+close(4)                                = 0
+stat("/home/lhumphreys/dev/sockerreuse/_ssl", 0x7fffd73e0fe0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/_ssl.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/_ssl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/_sslmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/_ssl.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/lhumphreys/dev/sockerreuse/_ssl.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_ssl", 0x7fffd73e0fe0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_ssl.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_ssl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_sslmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_ssl.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/_ssl.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/_ssl", 0x7fffd73e0fe0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_ssl.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_ssl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_sslmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_ssl.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/plat-x86_64-linux-gnu/_ssl.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk/_ssl", 0x7fffd73e0fe0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/_ssl.x86_64-linux-gnu.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/_ssl.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/_sslmodule.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/_ssl.py", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-tk/_ssl.pyc", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload/_ssl", 0x7fffd73e0fe0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/_ssl.x86_64-linux-gnu.so", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=102248, ...}) = 0
+futex(0x7f39e61d30c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/lib/python2.7/lib-dynload/_ssl.x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\177\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=102248, ...}) = 0
+mmap(NULL, 2197568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f39e5440000
+mprotect(0x7f39e5455000, 2093056, PROT_NONE) = 0
+mmap(0x7f39e5654000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x14000) = 0x7f39e5654000
+close(5)                                = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=61688, ...}) = 0
+mmap(NULL, 61688, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7f39e6910000
+close(5)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libssl.so.1.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240w\1\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=433760, ...}) = 0
+mmap(NULL, 2529304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f39e51d0000
+mprotect(0x7f39e5230000, 2097152, PROT_NONE) = 0
+mmap(0x7f39e5430000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x60000) = 0x7f39e5430000
+close(5)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\220\6\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0644, st_size=2575848, ...}) = 0
+mmap(NULL, 4685184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f39e4d50000
+mprotect(0x7f39e4f9d000, 2097152, PROT_NONE) = 0
+mmap(0x7f39e519d000, 163840, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x24d000) = 0x7f39e519d000
+mmap(0x7f39e51c5000, 11648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f39e51c5000
+close(5)                                = 0
+mprotect(0x7f39e519d000, 122880, PROT_READ) = 0
+mprotect(0x7f39e5430000, 16384, PROT_READ) = 0
+mprotect(0x7f39e5654000, 4096, PROT_READ) = 0
+munmap(0x7f39e6910000, 61688)           = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f39e68e0000
+brk(0x7fffcf047000)                     = 0x7fffcf047000
+close(4)                                = 0
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=513, ...}) = 0
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 513
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=183, ...}) = 0
+openat(AT_FDCWD, "/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+futex(0x7f39e67efba4, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=183, ...}) = 0
+read(3, "# This file was automatically ge"..., 4096) = 183
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+uname({sysname="Linux", nodename="LAPTOP-9BKDFPPT", ...}) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=61688, ...}) = 0
+mmap(NULL, 61688, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f39e68d0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47568, ...}) = 0
+mmap(NULL, 2168632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e4b30000
+mprotect(0x7f39e4b3b000, 2093056, PROT_NONE) = 0
+mmap(0x7f39e4d3a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f39e4d3a000
+mmap(0x7f39e4d3c000, 22328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f39e4d3c000
+close(3)                                = 0
+mprotect(0x7f39e4d3a000, 4096, PROT_READ) = 0
+munmap(0x7f39e68d0000, 61688)           = 0
+openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=424, ...}) = 0
+read(3, "# This file is automatically gen"..., 4096) = 424
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=61688, ...}) = 0
+mmap(NULL, 61688, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f39e68d0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=26936, ...}) = 0
+mmap(NULL, 2121952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e4920000
+mprotect(0x7f39e4925000, 2097152, PROT_NONE) = 0
+mmap(0x7f39e4b25000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f39e4b25000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\00008\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101168, ...}) = 0
+mmap(NULL, 2206336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f39e4700000
+mprotect(0x7f39e4717000, 2097152, PROT_NONE) = 0
+mmap(0x7f39e4917000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f39e4917000
+mmap(0x7f39e4919000, 6784, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f39e4919000
+close(3)                                = 0
+mprotect(0x7f39e4917000, 4096, PROT_READ) = 0
+mprotect(0x7f39e4b25000, 4096, PROT_READ) = 0
+munmap(0x7f39e68d0000, 61688)           = 0
+socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("75.75.75.75")}, 16) = 0
+gettimeofday({tv_sec=1536449776, tv_usec=476838}, NULL) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\320K\1\0\0\1\0\0\0\0\0\0\tlocalhost\0\0\34\0\1", 27, MSG_NOSIGNAL, NULL, 0) = 27
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [55])                = 0
+recvfrom(3, "\320K\201\200\0\1\0\1\0\0\0\0\tlocalhost\0\0\34\0\1\300\f\0\34\0"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("75.75.75.75")}, [28->16]) = 55
+close(3)                                = 0
+socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 3
+setsockopt(3, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+bind(3, {sa_family=AF_INET6, sin6_port=htons(12345), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = 0
+listen(3, 1)                            = 0
+accept(3, 0x7fffd73e24d0, [28])         = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+strace: Process 6816 detached
+Traceback (most recent call last):
+  File "server.py", line 11, in <module>
+    conn, addr = s.accept()
+  File "/usr/lib/python2.7/socket.py", line 206, in accept
+    sock, addr = self._sock.accept()
+KeyboardInterrupt

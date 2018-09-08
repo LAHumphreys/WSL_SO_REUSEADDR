@@ -1,4 +1,50 @@
-### Background
+# Bug Report
+##  Issue
+WSL incorrectly allows two active listeners if they declare SO_REUSEADDR
+
+##  Tested on
+
+##  Steps to Reproduce
+ 1. Create a new AF_INET6 socket, using SOCKET_STREAM and IPPROTO_IP
+ 1. Set SO_RESUSEADDR option to true
+ 1. Bind the socket to a port on the local machine
+ 1. Start listening on the socket
+ 1. Create a second socket, using the same options
+ 1. Set SO_RESUSEADDR option to true on the second socket 
+ 1. Bind the second socket to the same port
+
+Trivial python scripts are provided in this repo to reproduce this issue:
+ 1. In a terminal run the server script
+ 1. In a second terminal attempt to run a second version of the server script
+
+##  Native Ubuntu Behaviour
+  The second bind is rejected
+
+```shell
+    Traceback (most recent call last):
+      File "server.py", line 8, in <module>
+        s.bind(serverAddr)
+      File "/usr/lib/python2.7/socket.py", line 228, in meth
+        return getattr(self._sock,name)(*args)
+    socket.error: [Errno 98] Address already in use
+```
+    socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 3
+    setsockopt(3, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+    bind(3, {sa_family=AF_INET6, sin6_port=htons(12345), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = -1 EADDRINUSE (Address already in use)
+```strace
+```
+
+##  WSL Behaviour
+  The second bind is permitted, and is effectively queued behind the first.
+
+```strace
+    socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 3
+    setsockopt(3, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+    bind(3, {sa_family=AF_INET6, sin6_port=htons(12345), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = 0
+    listen(3, 1)                            = 0
+```
+
+# Background to the Issue
 
 The issue presents itsself as a hung regression test on a c++ websockets server:
 ```
