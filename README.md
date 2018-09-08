@@ -3,6 +3,7 @@
 WSL incorrectly allows two active listeners if they declare SO_REUSEADDR
 
 ##  Tested on
+  Window Home, build 1803
 
 ##  Steps to Reproduce
  1. Create a new AF_INET6 socket, using SOCKET_STREAM and IPPROTO_IP
@@ -28,20 +29,42 @@ Trivial python scripts are provided in this repo to reproduce this issue:
         return getattr(self._sock,name)(*args)
     socket.error: [Errno 98] Address already in use
 ```
+
+Strace:
+```strace
     socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 3
     setsockopt(3, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
     bind(3, {sa_family=AF_INET6, sin6_port=htons(12345), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = -1 EADDRINUSE (Address already in use)
-```strace
 ```
 
 ##  WSL Behaviour
   The second bind is permitted, and is effectively queued behind the first.
 
+Strace:
 ```strace
     socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 3
     setsockopt(3, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
     bind(3, {sa_family=AF_INET6, sin6_port=htons(12345), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = 0
     listen(3, 1)                            = 0
+```
+
+##  Expected Behaviour
+
+The behaviour of native ubuntu matches the expected behaviour, as per the man socket(7) page:
+
+```man
+	Indicates that the rules used in validating addresses supplied in a bind(2)
+	call should allow reuse of local addresses.  For AF_INET sockets this means
+	that a socket may bind, except when there is an active listening socket bound
+	to the address.  When the listening socket is bound to INADDR_ANY with a
+	specific port then it is not possible to bind to this port for any local
+	address.  Argument is an integer boolean flag. 
+```
+
+With the important section being:
+```
+	 For AF_INET sockets this means that a socket may bind, **except** when
+         there is an active listening socket bound to the address.
 ```
 
 # Background to the Issue
