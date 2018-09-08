@@ -1,6 +1,7 @@
 ### Background
 
 The issue presents itsself as a hung unit test on a c++ websockets server:
+```
     [==========] Running 8 tests from 1 test case.
     [----------] Global test environment set-up.
     [----------] 8 tests from REQ_CLIENT
@@ -19,6 +20,7 @@ The issue presents itsself as a hung unit test on a c++ websockets server:
     [ RUN      ] REQ_CLIENT.InFlightDisconnect
     [       OK ] REQ_CLIENT.InFlightDisconnect (8 ms)
     [ RUN      ] REQ_CLIENT.NoDoublePortBind
+ ```
 
 The NoDoublePortBind unit test is very specific - it verifies the behaviour of the SO_REUSEADDR flag, used by the server when binding to its listening port. The code this is designed to verify is part of the core server:
 
@@ -32,4 +34,9 @@ The NoDoublePortBind unit test is very specific - it verifies the behaviour of t
         requestServer_.listen(port);
 
         requestServer_.start_accept();
+```
+
+The unit test itself works by attempting to spin up two servers on the same port, verifying that the second server fails:
+```c++
+
 ```
