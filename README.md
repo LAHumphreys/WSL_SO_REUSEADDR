@@ -69,7 +69,7 @@ With the important section being:
 
 # Background to the Issue
 
-The issue presents itsself as a hung regression test on a c++ websockets server:
+The issue presents itsself as a hung regression test on a [c++ websockets](https://github.com/Grauniad/CPPWebSocketResponseRequest) server:
 ```
     [==========] Running 8 tests from 1 test case.
     [----------] Global test environment set-up.
@@ -91,7 +91,7 @@ The issue presents itsself as a hung regression test on a c++ websockets server:
     [ RUN      ] REQ_CLIENT.NoDoublePortBind
  ```
 
-The NoDoublePortBind regression test is very specific - it verifies the behaviour of the SO_REUSEADDR flag, used by the server when binding to its listening port. The code this is designed to verify is part of the core server:
+The NoDoublePortBind regression test is very specific - it verifies the behaviour of the SO_REUSEADDR flag, used by the server when binding to its listening port. The [code](https://github.com/Grauniad/CPPWebSocketResponseRequest/blob/master/src/ReqServer.cpp#L276) this is designed to verify is part of the core server:
 
 ```c++
         // Allow address re-use so that orphaned sessions from an old server
@@ -105,7 +105,7 @@ The NoDoublePortBind regression test is very specific - it verifies the behaviou
         requestServer_.start_accept();
 ```
 
-The regression test itself works by attempting to spin up two servers on the same port, verifying that the second server fails:
+The [regression test](https://github.com/Grauniad/CPPWebSocketResponseRequest/blob/master/test/requestReply.cpp#L276) itself works by attempting to spin up two servers on the same port, verifying that the second server fails:
 ```c++
     /**
      * Ensure we can't have two active servers listening on the same port...
